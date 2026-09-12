@@ -29,20 +29,30 @@ export default function Home() {
         </div>
       </header>
       <main className="flex-1 flex flex-col gap-4 p-6 min-w-0">
-        <section className="flex gap-4 p-8 min-w-0">
+        <section className="flex items-center gap-4 p-8 min-w-0">
           <div className="flex-1 p-2 min-w-0 relative h-96">
             <Image src={image} alt="hi" fill className="object-cover"/>
-            <div className="absolute inset-0 flex flex-col justify-center text-white">
-              <div className="text-6xl">Hello World!</div>
-              <div className="text-4xl">I am,</div>
-              <div className="text-4xl">James</div>
-              <div className="text-4xl">Angelo</div>
-              <div className="text-4xl">Inopia</div>
+            <div className=" p-3 absolute inset-0 flex flex-col justify-end items-start text-white">
+              <div className="text-6xl border-b-2 border-white">James Angelo Inopia</div>
+              <div className="text-l">Aspiring Software Engineer</div>
             </div>
           </div>
           <div className="flex-1 p-2 min-w-0">
             <div className="border-b-2 border-white">About Me</div>
-            <div>I am a Software Engineer.. IDK WHAT ELSE TO SAY HUHU</div>
+            <div>Hello World! I am James Angelo Inopia, currently at my third year studying at iACADEMY Cebu, pursuing a degree in Bachelor of Science in Computer Science, majoring in Software Engineering (BSCS-SE). I am passionate about learning and strive to create meaningful digital experiences.</div>
+          </div>
+        </section>
+        <section className="flex items-center gap-4 p-8 min-w-0">
+          <div className="flex-1 p-2 min-w-0">
+            <div className="border-b-2 border-white">About Me</div>
+            <div>Hello World! I am James Angelo Inopia, currently at my third year studying at iACADEMY Cebu, pursuing a degree in Bachelor of Science in Computer Science, majoring in Software Engineering (BSCS-SE). I am passionate about learning and strive to create meaningful digital experiences.</div>
+          </div>
+          <div className="flex-1 p-2 min-w-0 relative h-96">
+            <Image src={image} alt="hi" fill className="object-cover"/>
+            <div className=" p-3 absolute inset-0 flex flex-col justify-end items-start text-white">
+              <div className="text-6xl border-b-2 border-white">James Angelo Inopia</div>
+              <div className="text-l">Aspiring Software Engineer</div>
+            </div>
           </div>
         </section>
       </main>
