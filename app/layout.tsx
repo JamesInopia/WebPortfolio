@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Navbar from "./components/nav";
+import TransitionProvider from "./components/transition";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -23,7 +25,11 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased scrollbar-hide`}
     >
-      <body className="min-h-full flex flex-col scrollbar-hide">{children}</body>
+      <body className="h-screen overflow-hidden scrollbar-hide">
+        <TransitionProvider nav={<Navbar />}>
+          {children}
+        </TransitionProvider>
+      </body>
     </html>
   );
 }
