@@ -7,7 +7,7 @@ description: "Kawaii Count is a Restaurant Inventory System application that is 
 { slug: "spellaria", title: "Spellaria", year: 2026, image: "/Spellaria.png",
 description: "Spellaria is a turn-based strategy puzzle game in which players must spell words from a given set of letters in order to defeat their enemies in a limited amount of time. This game is highly inspired by the game Bookworm Adventures. The game challenges players to think critically by combining word‑building with tactical decision‑making." },
 { slug: "yaw8", title: "YAW8", year: 2026, image: "/YAW8.jpg",
-description: "Lets residents pin a broken streetlight on a map." },
+description: "This project is a web-based platform that allows users to play browser-based mini games created by students of the school. The platform serves as a centralized hub where players can easily access games while student developers can showcase their projects to a larger audience." },
 { slug: "grace-p", title: "Grace.", year: 2026, image: "/Grace.png",
 description: "Grace. is a productivity app that can block applications or websites, or set timers for applications to help users focus on important tasks and practice better time management." },
 ];
