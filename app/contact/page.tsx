@@ -1,11 +1,7 @@
 import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
-import Image from "next/image";
-import image from "../placeholder.jpg";
 
 export default function Home() {
-  const currentYear = new Date().getFullYear();
-
   return (
       <main className="flex-1 flex flex-col gap-4 p-6 min-w-0">
         <section className="flex items-center gap-4 p-8 min-w-0">

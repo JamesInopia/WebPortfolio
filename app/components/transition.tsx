@@ -34,8 +34,7 @@ export default function TransitionProvider({
     setIsAnimating(true);
   };
 
-  // Snap the (single) scroll container to top the instant new content swaps in —
-  // useLayoutEffect runs before paint, so there's no flash of scrolled-down content.
+  // Locks page when transitioning
   useLayoutEffect(() => {
     scrollRef.current?.scrollTo(0, 0);
   }, [displayPathname]);
